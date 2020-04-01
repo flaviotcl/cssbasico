@@ -5,38 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /*******
-        Prioridade, exatamente nesta ordem:
-            - tag 
-            - class
-            - id
-
+        header {
+            background-color: #e52828;
+        }
+        #footer{
+            background-color: green;
+        }
         .logomarca{
-            color: red;
+            background-color: blue;
         }
-        #header .logomarca{
-            color: blue;
+        #footer > .logomarca{
+            color: white;
         }
-        ********/
-        
-        #header div div a{
-            background-color: gray;
-            color: green;
-        }
-        #header div div a{
-            color: yellow;
-        }
-        
-        .header a{ 
-            color: blue;
-        }
-        header a{
-            color: red;
-        }
+       
     </style>
 </head>
 <body>
-    <header class="header" id="header">
+    <header id="header">
         <div>
             <div ><a href="" class="logomarca">Logomarca</a></div>
         </div>
@@ -51,6 +36,7 @@
         <section>
              <p class="logomarca" >&copysr; Todos os direitos reservados</p>
         </section>
+             <a class="logomarca" >&copysr; Todos os direitos reservados</a>
     </footer>
 </body>
 </html>
