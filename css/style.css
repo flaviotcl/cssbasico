@@ -13,6 +13,15 @@ body{
     border: 3px solid #000;
     border-radius: 5px;
 }
+/** Efeito similar ao #mostrar porém é menos específico.
+div[id="mostrar"]{
+    display: inline;
+}**/
+
+#display * { 
+    display: inline;
+}
+
 
 footer{
     border: 2px solid gray;
