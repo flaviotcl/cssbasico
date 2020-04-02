@@ -1,18 +1,12 @@
-header + main{
-    border: 5px solid blue;
-}
-
-header ~ main{
-    border: 5px solid gray;
-}
-
-/**body{
-   
+@import 'botoes.css';
+body{
     background-color: #cccccc;
-     padding: 10px;
-}**/
+    padding: 10px;
+}
 footer{
     border: 2px solid gray;
+    padding: 20px;
+    margin: 10px;
 }
 main{
     border: 2px solid blue;
