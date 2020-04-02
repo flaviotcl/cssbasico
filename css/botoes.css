@@ -3,6 +3,7 @@ a[title="Meu Logo"]{
 }
 
 a[class*="btn"]{
+    display:inline-block;
     text-decoration: none;
     background-color: #ecf0f1;
     color: #7f8c8d;
