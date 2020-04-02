@@ -2,6 +2,9 @@
 body{
     background-color: #cccccc;
     padding: 10px;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 footer{
     border: 2px solid gray;
