@@ -1,0 +1,20 @@
+header + main{
+    border: 5px solid blue;
+}
+
+header ~ main{
+    border: 5px solid gray;
+}
+
+/**body{
+   
+    background-color: #cccccc;
+     padding: 10px;
+}**/
+footer{
+    border: 2px solid gray;
+}
+main{
+    border: 2px solid blue;
+    padding: 20px;
+}
